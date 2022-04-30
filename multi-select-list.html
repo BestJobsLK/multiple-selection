@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Multiple Selection with Select Tag</title>
+</head>
+<body>
+	<form action="process-form.php" method="post">
+		<label for="">Select The Subject:</label> <br>
+		<select name="subject[]" size="8" multiple>
+			<option value="Sinhala">Sinhala</option>
+	        <option value="English">English</option>
+	        <option value="Mathematics">Mathematics</option>
+	        <option value="Science">Science</option>
+	        <option value="Religion">Religion</option>
+	        <option value="Social Studies">Social Studies</option> 
+	        <option value="History">History</option>
+	        <option value="Commerce">Commerce</option>
+	        <option value="Art">Art</option>
+	        <option value="Music">Music</option>
+	        <option value="Dance">Dance</option>
+		</select>
+		<br>
+		<button type="submit" name="save_btn">Save</button>
+	</form>
+</body>
+</html>
